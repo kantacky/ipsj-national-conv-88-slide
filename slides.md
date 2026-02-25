@@ -45,9 +45,5 @@ src: ./pages/09_plan.md
 ---
 
 ---
-src: ./pages/10_conference.md
----
-
----
 src: ./pages/11_summary.md
 ---

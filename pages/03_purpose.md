@@ -1,8 +1,7 @@
 ---
 layout: content
 transition: none
-title: 課題研究 II
-subtitle: 目的と提案手法
+title: 目的と提案手法
 ---
 
 # 目的

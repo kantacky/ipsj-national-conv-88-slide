@@ -1,8 +1,7 @@
 ---
 layout: content
 transition: none
-title: 課題研究 II
-subtitle: フォトウォークデータ生成の必要性
+title: フォトウォークデータ生成の必要性
 ---
 
 # フォトウォークデータとは
