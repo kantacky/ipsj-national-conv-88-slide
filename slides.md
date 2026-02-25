@@ -1,7 +1,7 @@
 ---
 theme: default
 transition: none
-title: 課題研究II
+title: 情報処理学会第88回全国大会
 mdc: true
 fonts:
   sans: "Hiragino Kaku Gothic ProN"
