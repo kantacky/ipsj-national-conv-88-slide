@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "zotero": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/54yyyu/zotero-mcp.git",
+        "zotero-mcp"
+      ],
+      "env": {
+        "ZOTERO_LOCAL": "true"
+      }
+    }
+  }
+}
