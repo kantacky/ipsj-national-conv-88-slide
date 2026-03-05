@@ -5,21 +5,18 @@ title: 提案手法
 subtitle: 実装
 ---
 
-- Python と Google GenAI SDK を使用
-- 並行処理による高速なデータ生成
-- Gemini 3 Flash Preview を使用
-  - Gemini 2.5 Flash Lite: 周回性制約を遵守できない
-  - Gemini 2.5 Flash: 地理的整合性を遵守できない
+- Python と Google GenAI SDK を使用（並行処理で大量生成）
+- モデル選定：**フォトウォークデータの制約を遵守できるか**で比較
+  - Gemini 2.5 Flash Lite: 周回性を遵守できない → 不採用
+  - Gemini 2.5 Flash: 地理的整合性を遵守できない → 不採用
+  - **Gemini 3 Flash Preview**: 両制約を遵守 → **採用**
 
 <!--
-次に実装の詳細について説明します。
+次に実装について説明します。
 
-言語は Python を使用し、Google GenAI SDK を介して Gemini API にアクセスしました。
-大量のデータを効率的に生成するため、1つのセッションを生成するタスクを並行に処理するように実装しました。
+Python と Google GenAI SDK を使用し、並行処理で大量のセッションを効率的に生成しました。
 
-モデルの選定においては、Gemini 3 Flash Preview を採用しました。
-比較検討として Gemini 2.5 Flash Lite と Gemini 2.5 Flash も試しましたが、
-Flash Lite は周回性制約を遵守できず、
-Flash はエリアの指定を遵守できないという結果になりました。
-Gemini 3 Flash Preview はこれらの制約を最もよく遵守できました。
+モデルの選定では、先ほど説明したフォトウォークデータ固有の制約、つまり周回性と地理的整合性を遵守できるかを基準に比較しました。
+Gemini 2.5 Flash Lite は周回性を、Gemini 2.5 Flash は地理的整合性を遵守できなかったため、
+両方の制約を最もよく遵守できた Gemini 3 Flash Preview を採用しました。
 -->
