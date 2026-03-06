@@ -5,9 +5,9 @@
     <div class="text-lg">Simultaneous Clustering of Photo Spots and Photographers in Photowalks</div>
   </div>
   <div class="flex flex-col gap-12 text-lg">
-    <div>及川 寛太</div>
+    <div>及川 寛太　新美 礼彦</div>
     <div class="flex flex-col gap-4">
-      <div>公立はこだて未来大学大学院 システム情報科学研究科</div>
+      <div>公立はこだて未来大学</div>
       <div>2026/03/08</div>
     </div>
   </div>
