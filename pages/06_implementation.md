@@ -12,9 +12,9 @@ subtitle: 実装
 
 | モデル | 周回性 | 地理的整合性 | 結果 |
 |---|:---:|:---:|:---:|
-| Gemini 2.5 Flash Lite | ✗ | ✓ | 不採用 |
-| Gemini 2.5 Flash | ✓ | ✗ | 不採用 |
-| **Gemini 3 Flash Preview** | **✓** | **✓** | **採用** |
+| Gemini 2.5 Flash Lite | ❌ | ❌ | 不採用 |
+| Gemini 2.5 Flash | ✅ | ❌ | 不採用 |
+| **Gemini 3 Flash Preview** | **✅** | **✅** | **採用** |
 
 </div>
 
