@@ -25,16 +25,3 @@ subtitle: 条件
 行動制約として、徒歩30分程度の散歩コースであること、10〜30枚程度の画像を撮影することを設定しました。
 データ規模としては、10人の撮影者を想定し、各5セッション、合計50セッションのデータを生成させました。
 -->
-
----
-layout: content
-transition: none
-title: データ生成
-subtitle: 結果
----
-
-<Image image="https://i.gyazo.com/ecb964141469e90836abb9c580070426.jpg" caption="Gemini 3 Flash Preview で生成したデータ（抜粋）" class="w-[75%] mx-auto" />
-
-<!--
-こちらが、生成されたデータの一部を抜粋し、地図上にプロットした結果です。
--->
