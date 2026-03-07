@@ -9,10 +9,6 @@ src: ./pages/00_title.md
 ---
 
 ---
-src: ./pages/01_recap.md
----
-
----
 src: ./pages/02_background.md
 ---
 

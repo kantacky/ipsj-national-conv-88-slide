@@ -1,17 +1,56 @@
 ---
 layout: content
 transition: none
-title: フォトウォークデータの入手困難性
+title: 背景
+subtitle: フォトウォークにおける個人的穴場フォトスポット推薦の必要性
+---
+
+# フォトウォークの定義
+
+- カメラを持って街を歩き，興味を引いたものを撮影する行為
+
+# 個人的穴場フォトスポットの定義<Cite index="1" />
+
+<div class="grid grid-cols-[auto_1fr_1fr] grid-rows-[auto_1fr_1fr] gap-0 text-sm my-2 w-110">
+  <div></div>
+  <div class="text-center font-bold border border-gray-300 px-2 py-1 bg-gray-50">集団における人気: 高</div>
+  <div class="text-center font-bold border border-gray-300 px-2 py-1 bg-gray-50">集団における人気: 低</div>
+  <div class="font-bold border border-gray-300 px-2 py-1 bg-gray-50 flex items-center">一般的な人気: 高</div>
+  <div class="border border-gray-300 px-3 py-2 text-center text-gray-400">人気スポット</div>
+  <div class="border border-blue-400 px-3 py-2 bg-blue-50 text-center font-bold text-blue-700">発見的穴場</div>
+  <div class="font-bold border border-gray-300 px-2 py-1 bg-gray-50 flex items-center">一般的な人気: 低</div>
+  <div class="border border-blue-400 px-3 py-2 bg-blue-50 text-center font-bold text-blue-700">独占的穴場</div>
+  <div class="border border-gray-300 px-3 py-2 text-center text-gray-400">不人気スポット</div>
+</div>
+
+# フォトウォークにおいて個人的穴場を提案する意義
+
+- 自分の感性に合った被写体との出会いを促進
+- フォトウォーク本来の「発見する楽しさ」を増幅
+
+<Footer>
+<Caption index="1" caption='根本侑弥, 羽佐田紘之, 伊藤真利子, 長橋陽介, 岩瀬義和, and 本間裕大, "モバイル位置情報データを活用した観光スポットと訪問者の同時クラスタリング," 都市計画論文集, vol. 58, no. 3, pp. 1156–1163, 2023.‌' />
+</Footer>
+
+<!--
+フォトウォークとは，カメラを持って街を歩き，興味を引いたものを撮影する行為です．
+個人的穴場フォトスポットとは，誰もが訪れるスポットでも誰も訪れないスポットでもない場所のことで，発見的なものと独占的なものがあります．
+フォトウォークにおいて個人的穴場を提案する意義は，自分の感性に合った被写体との出会いを促進し，フォトウォーク本来の「発見する楽しさ」を増幅させることです．
+しかし，現状ではフォトウォークにおいて個人的穴場を発見する方法がありません．
+-->
+
+---
+layout: content
+transition: none
+title: 背景
+subtitle: フォトウォークにおいて個人的穴場を発見するために
 ---
 
 # 着想
 
 - 観光スポットと訪問者の同時クラスタリング手法<Cite index="1" />をフォトウォークに応用
   - フォトスポットと撮影者の同時クラスタリングにより個人的穴場を抽出
-
-# 必要なデータ
-
-- フォトウォークデータ: 位置情報，被写体情報付きの撮影データ
+- フォトウォークデータが必要: 位置情報，被写体情報付きの撮影データ
 
 # 問題
 
