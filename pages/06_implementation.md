@@ -7,9 +7,16 @@ subtitle: 実装
 
 - Python と Google GenAI SDK を使用（並行処理で大量生成）
 - モデル選定：**フォトウォークデータの制約を遵守できるか**で比較
-  - Gemini 2.5 Flash Lite: 周回性を遵守できない → 不採用
-  - Gemini 2.5 Flash: 地理的整合性を遵守できない → 不採用
-  - **Gemini 3 Flash Preview**: 両制約を遵守 → **採用**
+
+<div class="text-sm my-2">
+
+| モデル | 周回性 | 地理的整合性 | 結果 |
+|---|:---:|:---:|:---:|
+| Gemini 2.5 Flash Lite | ✗ | ✓ | 不採用 |
+| Gemini 2.5 Flash | ✓ | ✗ | 不採用 |
+| **Gemini 3 Flash Preview** | **✓** | **✓** | **採用** |
+
+</div>
 
 <!--
 次に実装について説明します。
