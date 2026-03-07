@@ -34,7 +34,7 @@ defineProps({
   h5,
   h6,
   p {
-    @apply m-0;
+    @apply m-0 mt-4;
   }
 
   h1 {
@@ -59,7 +59,7 @@ defineProps({
   }
 
   .header {
-    @apply flex flex-col mb-2 pb-1 border-b border-gray-400;
+    @apply flex flex-col mb-0 pb-1 border-b border-gray-400;
 
     .title {
       @apply text-base font-bold;
